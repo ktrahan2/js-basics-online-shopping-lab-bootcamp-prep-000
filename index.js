@@ -67,7 +67,7 @@ function placeOrder(cardNumber) {
   else if (cardNumber > 0) {
     var newtotal = total()
     cart = []
-    return `Your total cost is ${newtotal}, which will be charged to the card ${cardNumber}`
+    return `Your total cost is $${newtotal}, which will be charged to the card ${cardNumber}`
 
   }
 }
